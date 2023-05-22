@@ -8,16 +8,15 @@
  
 - 安装组件库
 
-   ```bash
+```bash
     yarn add moran-ui
     npm i moran-ui
 ```
- 
 - 全局导入
+
 ```js
-    import moranUI form 'moran-ui'
-    import 'moran-ui/lib/moran.css'
- 
+    import moranUI from 'moran-ui'
+    import 'moran-ui/dist/moran-ui.css'
     Vue.use(moranUI)
 ```
 
